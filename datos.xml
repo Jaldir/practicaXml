@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<museum>
+
+<generaldata>
+	<name>Prao</name>
+	<address>Paseo del Prao, 15</address>
+	<openingHours>Cuando llamas a la puerta (1-11)</openingHours>
+	<fees>Mu caro</fees>
+	<telephoneNumber>111222333</telephoneNumber>
+	<webPage>www.elpraoesbonitu.com</webPage>
+</generaldata>
+
+<staffinfo>
+	<employee>
+		<personalData>
+			<name>Pepa</name>
+			<surname>Pérez</surname>
+			<telephoneNumber>222333444</telephoneNumber>
+			<office>Er mas bonicu</office>
+			<email>pepapepi@prau.com</email>
+		</personalData>
+		<department>Flores</department>
+		<role>Flores Chief Executive Manager</role>
+	</employee>
+</staffinfo>
+
+<exhibitions>
+	<exhibition>
+		<title>Flores Amarillas</title>
+		<description>Wonderful oportunity to enjoy the view of hundreds of yellow common flowers</description>
+		<place>In de prau</place>
+		<dates>Tumorrou</dates>
+	</exhibition>
+</exhibitions>
+
+<activities>
+	<event>
+		<title></title>
+		<description></description>
+		<place></place>
+		<time></time>
+		<type></type>
+	</event>
+</activities>
+
+<services>
+	<service>
+		<name></name>
+		<description></description>
+		<place></place>
+		<openingHours></openingHours>
+	</service>
+</services>
+
+</museum>

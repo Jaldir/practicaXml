@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org" xmlns="http://www.example.org">
+
+  <xs:element name="museum">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="generaldata">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="address"/>
+              <xs:element name="openingHours" type="openingHoursType"/>
+              <xs:element type="xs:decimal" name="fees"/>
+              <xs:element type="xs:int" name="telephoneNumber"/>
+              <xs:element type="xs:anyURI" name="webPage"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="staffinfo" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="employee">
+                <xs:complexType>
+                  <xs:sequence>
+                          <xs:element type="xs:string" name="name"/>
+                          <xs:element type="xs:string" name="surname"/>
+                          <xs:element type="xs:int" name="telephoneNumber"/>
+                          <xs:element type="xs:string" name="office"/>
+                          <xs:element type="xs:string" name="email"/>
+                    <xs:element type="xs:string" name="department"/>
+                    <xs:element type="xs:string" name="role"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="exhibitions" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="exhibition">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element type="xs:string" name="place"/>
+                    <xs:element type="datesType" name="dates"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="activities" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="event">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element name="activities" maxOccurs="unbounded">
+	          			<xs:complexType>
+		                    <xs:sequence>
+			                    <xs:element type="xs:string" name="place"/>
+			                    <xs:element name="datetime">
+		                    	<xs:complexType>
+		                    		<xs:sequence>
+		                    			<xs:element type="xs:date" name="date"></xs:element>
+		                    			<xs:element type="xs:time" name="time"></xs:element>
+		                    		</xs:sequence>
+		                    	</xs:complexType>
+		                    	</xs:element>
+	                    	</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+                    <xs:element type="xs:string" name="type"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="services">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="service" maxOccurs="4">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="serviceNames" name="name"/>
+                    <xs:element type="xs:string" name="description"/>
+                    <xs:element type="xs:string" name="place"/>
+                    <xs:element type="openingHoursType" name="openingHours"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+<!-- Global types -->
+
+  	<xs:complexType name="openingHoursType">
+		<xs:sequence>
+	    	<xs:element name="openhour" type="xs:time"/>
+	    	<xs:element name="closehour" type="xs:time"/>
+	  	</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="datesType">
+		<xs:sequence>
+			<xs:element name="startday" type="xs:date"></xs:element>
+			<xs:element name="endday" type="xs:date"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="serviceNames">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Library"/>
+			<xs:enumeration value="Archive"/>
+			<xs:enumeration value="Shop"/>
+			<xs:enumeration value="Publications service"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>
