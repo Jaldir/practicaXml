@@ -9,17 +9,17 @@
             <xs:sequence>
               <xs:element type="xs:string" name="name"/>
               <xs:element type="xs:string" name="address"/>
-              <xs:element name="openingHours" type="openingHoursType"/>
+              <xs:element type="openingHoursType" name="openingHours"/>
               <xs:element type="xs:decimal" name="fees"/>
               <xs:element type="xs:int" name="telephoneNumber"/>
               <xs:element type="xs:anyURI" name="webPage"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="staffinfo" maxOccurs="unbounded">
+        <xs:element name="staffinfo">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="employee">
+              <xs:element name="employee" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
                   		<xs:element type="xs:string" name="name"/>

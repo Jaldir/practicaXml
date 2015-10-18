@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fw.org/prac1 schema.xsd ">
+<?xml version="1.0" encoding="UTF-8"?><p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <generaldata>
 	<name>Prao</name>
@@ -16,27 +14,23 @@
 
 <staffinfo>
 	<employee>
-		<personalData>
-			<name>Pepa</name>
-			<surname>Perez</surname>
-			<telephoneNumber>222333444</telephoneNumber>
-			<office>Er mas bonicu</office>
-			<email>pepapepi@prau.com</email>
-		</personalData>
-		<department>Flores</department>
-		<role>Flores Chief Executive Manager</role>
-	</employee>
+<name/>
+<surname/>
+<telephoneNumber/>
+<office/>
+<email/>
+<department>Flores</department>
+<role>Flores Chief Executive Manager</role>
+</employee>
 	<employee>
-		<personalData>
-			<name>Juan</name>
-			<surname>Juanez</surname>
-			<telephoneNumber>222330444</telephoneNumber>
-			<office>2235.F</office>
-			<email>juanjuanez@prau.com</email>
-		</personalData>
-		<department>Medicina interna</department>
-		<role>Medicina en cuadros</role>
-	</employee>
+<name/>
+<surname/>
+<telephoneNumber/>
+<office/>
+<email/>
+<department>Medicina interna</department>
+<role>Medicina en cuadros</role>
+</employee>
 </staffinfo>
 
 <exhibitions>
@@ -53,22 +47,22 @@
 
 <activities>
 	<event>
-		<title></title>
-		<description></description>
-		<place></place>
+		<title/>
+		<description/>
+		<place/>
       	<datetime>
         	<date>2011-01-31</date>
         	<time>14:00:00</time>
       	</datetime>
-		<type></type>
+		<type/>
 	</event>
 </activities>
 
 <services>
 	<service>
 		<name>Library</name>
-		<description></description>
-		<place></place>
+		<description/>
+		<place/>
       	<openingHours>
       	  <openhour>12:00:00</openhour>
       	  <closehour>12:01:00</closehour>

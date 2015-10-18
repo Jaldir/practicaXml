@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:p="http://www.fw.org/prac1">
 	<xsl:output method="xml" indent="yes"/>
 	
 	<xsl:template match="node()">
@@ -8,7 +8,7 @@
   		</xsl:copy>
  </xsl:template>
 
-	<xsl:template match="//museum/staffinfo/employee">		<!-- No se utiliza /museum/staffinfo por la posibilidad de que en un futuro se quiera añadir un elemento "numero de empleados" o similar -->
+	<xsl:template match="/p:museum/staffinfo/employee">
 	    <employee>
 	    	<name> <xsl:value-of select="./personalData/name"/> </name>
 	    	<surname> <xsl:value-of select="./personalData/surname"/> </surname>
@@ -19,4 +19,5 @@
 			<role> <xsl:value-of select="./role"/> </role>
 	    </employee>
     </xsl:template>
+    
 </xsl:stylesheet>
