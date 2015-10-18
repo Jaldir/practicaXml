@@ -20,4 +20,16 @@
 	    </employee>
     </xsl:template>
     
+    <xsl:template match="/p:museum/activities/event/datetime">
+	    <placeandtime>
+	        <place> <xsl:value-of select="../place"/> </place>
+	        <datetime>
+	        	<xsl:apply-templates/>
+	        </datetime>
+	      </placeandtime>
+    </xsl:template>
+    
+    <xsl:template match="/p:museum/activities/event/place">
+    </xsl:template>
+    
 </xsl:stylesheet>
