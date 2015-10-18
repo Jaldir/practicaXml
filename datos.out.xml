@@ -1,43 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <generaldata>
-	<name>Prao</name>
+	<name>Museo del Prao</name>
 	<address>Paseo del Prao, 15</address>
 	<openingHours>
 		<openhour>01:30:00</openhour>
       <closehour>23:22:00</closehour>
 	</openingHours>
 	<fees>200.0</fees>
-	<telephoneNumber>111222333</telephoneNumber>
-	<webPage>www.elpraoesbonitu.com</webPage>
+	<telephoneNumber>111333</telephoneNumber>
+	<webPage>www.elprao.com</webPage>
 </generaldata>
 
 <staffinfo>
 	<employee>
-<name/>
-<surname/>
-<telephoneNumber/>
-<office/>
-<email/>
-<department>Flores</department>
-<role>Flores Chief Executive Manager</role>
-</employee>
+		<name>Pepa</name>
+		<surname>Perez</surname>
+		<telephoneNumber>222444</telephoneNumber>
+		<office>192.U</office>
+		<email>pepapepi@prau.com</email>
+		<department>Flores</department>
+		<role>Flores Chief Executive Manager</role>
+	</employee>
 	<employee>
-<name/>
-<surname/>
-<telephoneNumber/>
-<office/>
-<email/>
-<department>Medicina interna</department>
-<role>Medicina en cuadros</role>
-</employee>
+		<name>Juan</name>
+		<surname>Juanez</surname>
+		<telephoneNumber>222330444</telephoneNumber>
+		<office>2235.F</office>
+		<email>juanjuanez@prau.com</email>
+		<department>Medicina interna</department>
+		<role>Medicina en cuadros</role>
+	</employee>
+	
 </staffinfo>
 
 <exhibitions>
 	<exhibition>
 		<title>Flores Amarillas</title>
 		<description>Wonderful oportunity to enjoy the view of hundreds of yellow common flowers</description>
-		<place>In de prau</place>
+		<place>En el prau</place>
 		<dates>
 			<startday>2014-01-12</startday>
 			<endday>2016-01-12</endday>
@@ -47,25 +48,37 @@
 
 <activities>
 	<event>
-		<title/>
-		<description/>
-		<place/>
-      	<datetime>
-        	<date>2011-01-31</date>
-        	<time>14:00:00</time>
+		<title>Taller de fotografía de cuadros</title>
+		<description>Aprende a fotografiar tus cuadros favoritos. Todo el arte, sin el relieve del pincel</description>
+		
+      	<placeandtime>
+<place>Plaza España</place>
+<datetime>
+        	<date>2019-01-31</date>
+        	<time>10:03:00</time>
       	</datetime>
-		<type/>
+</placeandtime>
+		<type>Taller</type>
 	</event>
 </activities>
 
 <services>
 	<service>
-		<name>Library</name>
-		<description/>
-		<place/>
+		<name>Librería</name>
+		<description>Más de dos libros de esculturas.</description>
+		<place>Avenida de la escultura encuadernada.</place>
       	<openingHours>
-      	  <openhour>12:00:00</openhour>
-      	  <closehour>12:01:00</closehour>
+      	  <openhour>16:00:00</openhour>
+      	  <closehour>16:01:00</closehour>
+      	</openingHours>
+	</service>
+		<service>
+		<name>Tienda</name>
+		<description>Mini esculturas.</description>
+		<place>Segundo piso de el Prau</place>
+      	<openingHours>
+      	  <openhour>09:00:00</openhour>
+      	  <closehour>21:00:00</closehour>
       	</openingHours>
 	</service>
 </services>
