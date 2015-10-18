@@ -15,13 +15,24 @@
 	<employee>
 		<personalData>
 			<name>Pepa</name>
-			<surname>Pérez</surname>
+			<surname>Perez</surname>
 			<telephoneNumber>222333444</telephoneNumber>
 			<office>Er mas bonicu</office>
 			<email>pepapepi@prau.com</email>
 		</personalData>
 		<department>Flores</department>
 		<role>Flores Chief Executive Manager</role>
+	</employee>
+	<employee>
+		<personalData>
+			<name>Juan</name>
+			<surname>Juanez</surname>
+			<telephoneNumber>222330444</telephoneNumber>
+			<office>2235.F</office>
+			<email>juanjuanez@prau.com</email>
+		</personalData>
+		<department>Medicina interna</department>
+		<role>Medicina en cuadros</role>
 	</employee>
 </staffinfo>
 
