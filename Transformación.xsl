@@ -40,5 +40,8 @@
     		<xsl:apply-templates/>
     	</service>
     </xsl:template>
+
+    <xsl:template match="/p:museum/services/service/name">
+    </xsl:template>
     
 </xsl:stylesheet>

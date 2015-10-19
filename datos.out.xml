@@ -1,4 +1,4 @@
-﻿­<?xml version="1.0" encoding="UTF-8"?><p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?><p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <generaldata>
 	<name>Museo del Prao</name>
@@ -16,7 +16,7 @@
 	<employee>
 		<name>Pepa</name>
 		<surname>Perez</surname>
-		<telephoneNumber>222333444</telephoneNumber>					
+		<telephoneNumber>222333444</telephoneNumber>
 		<office>192.U</office>
 		<email>pepapepi@prau.com</email>
 		<department>Flores</department>
@@ -51,19 +51,19 @@
 		<description>Aprende a fotografiar tus cuadros favoritos. Todo el arte, sin el relieve del pincel</description>
 		
       	<placeandtime>
-<place>Plaza España</place>
-<datetime>
-        	<date>2019-01-31</date>
-        	<time>10:03:00</time>
-      	</datetime>
-</placeandtime>
+            <place>Plaza España</place>
+            <datetime>
+                <date>2019-01-31</date>
+        	   <time>10:03:00</time>
+            </datetime>
+        </placeandtime>
 		<type>Taller</type>
 	</event>
 </activities>
 
 <services>
 	<service name="Librería">
-		<name>Librería</name>
+		
 		<description>Más de dos libros de esculturas.</description>
 		<place>Avenida de la escultura encuadernada.</place>
       	<openingHours>
@@ -72,7 +72,7 @@
       	</openingHours>
 	</service>
 		<service name="Tienda">
-		<name>Tienda</name>
+		
 		<description>Mini esculturas.</description>
 		<place>Segundo piso de el Prau</place>
       	<openingHours>
