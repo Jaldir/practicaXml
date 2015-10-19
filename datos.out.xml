@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+﻿­<?xml version="1.0" encoding="UTF-8"?><p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <generaldata>
 	<name>Museo del Prao</name>
@@ -14,23 +14,23 @@
 
 <staffinfo>
 	<employee>
-<name/>
-<surname/>
-<telephoneNumber/>
-<office/>
-<email/>
-<department>Flores</department>
-<role>Flores Chief Executive Manager</role>
-</employee>
+		<name>Pepa</name>
+		<surname>Perez</surname>
+		<telephoneNumber>222333444</telephoneNumber>					
+		<office>192.U</office>
+		<email>pepapepi@prau.com</email>
+		<department>Flores</department>
+		<role>Flores Chief Executive Manager</role>
+	</employee>
 	<employee>
-<name/>
-<surname/>
-<telephoneNumber/>
-<office/>
-<email/>
-<department>Medicina interna</department>
-<role>Medicina en cuadros</role>
-</employee>
+		<name>Juan</name>
+		<surname>Juanez</surname>
+		<telephoneNumber>222330444</telephoneNumber>
+		<office>2235.F</office>
+		<email>juanjuanez@prau.com</email>
+		<department>Medicina interna</department>
+		<role>Medicina en cuadros</role>
+	</employee>
 </staffinfo>
 
 <exhibitions>
