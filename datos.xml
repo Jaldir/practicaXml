@@ -3,7 +3,7 @@
 <p:museum xmlns:p="http://www.fw.org/prac1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fw.org/prac1 schema.xsd ">
 
 <generaldata>
-	<name>Prao</name>
+	<name>Museo del Prao</name>
 	<address>Paseo del Prao, 15</address>
 	<openingHours>
 		<openhour>01:30:00</openhour>
@@ -11,7 +11,7 @@
 	</openingHours>
 	<fees>200.0</fees>
 	<telephoneNumber>111222333</telephoneNumber>
-	<webPage>www.elpraoesbonitu.com</webPage>
+	<webPage>www.elprao.com</webPage>
 </generaldata>
 
 <staffinfo>
@@ -20,7 +20,7 @@
 			<name>Pepa</name>
 			<surname>Perez</surname>
 			<telephoneNumber>222333444</telephoneNumber>
-			<office>Er mas bonicu</office>
+			<office>192.U</office>
 			<email>pepapepi@prau.com</email>
 		</personalData>
 		<department>Flores</department>
@@ -43,7 +43,7 @@
 	<exhibition>
 		<title>Flores Amarillas</title>
 		<description>Wonderful oportunity to enjoy the view of hundreds of yellow common flowers</description>
-		<place>In de prau</place>
+		<place>En el prau</place>
 		<dates>
 			<startday>2014-01-12</startday>
 			<endday>2016-01-12</endday>
@@ -53,25 +53,34 @@
 
 <activities>
 	<event>
-		<title></title>
-		<description></description>
-		<place></place>
+		<title>Taller de fotografía de cuadros</title>
+		<description>Aprende a fotografiar tus cuadros favoritos. Todo el arte, sin el relieve del pincel</description>
+		<place>Plaza España</place>
       	<datetime>
-        	<date>2011-01-31</date>
-        	<time>14:00:00</time>
+        	<date>2019-01-31</date>
+        	<time>10:03:00</time>
       	</datetime>
-		<type></type>
+		<type>Taller</type>
 	</event>
 </activities>
 
 <services>
 	<service>
-		<name>Library</name>
-		<description></description>
-		<place></place>
+		<name>Librería</name>
+		<description>Más de dos libros de esculturas.</description>
+		<place>Avenida de la escultura encuadernada.</place>
       	<openingHours>
-      	  <openhour>12:00:00</openhour>
-      	  <closehour>12:01:00</closehour>
+      	  <openhour>16:00:00</openhour>
+      	  <closehour>16:01:00</closehour>
+      	</openingHours>
+	</service>
+		<service>
+		<name>Tienda</name>
+		<description>Mini esculturas.</description>
+		<place>Segundo piso de el Prau</place>
+      	<openingHours>
+      	  <openhour>09:00:00</openhour>
+      	  <closehour>21:00:00</closehour>
       	</openingHours>
 	</service>
 </services>

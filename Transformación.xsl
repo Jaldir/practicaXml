@@ -6,7 +6,7 @@
   		<xsl:copy>
    			<xsl:apply-templates select="node()"/>
   		</xsl:copy>
- </xsl:template>
+ 	</xsl:template>
 
 	<xsl:template match="/p:museum/staffinfo/employee">
 	    <employee>
@@ -30,6 +30,15 @@
     </xsl:template>
     
     <xsl:template match="/p:museum/activities/event/place">
+    </xsl:template>
+    
+    <xsl:template match="/p:museum/services/service">
+    	<service>
+    		<xsl:attribute name="name">
+    			<xsl:value-of select="./name"/>
+    		</xsl:attribute>
+    		<xsl:apply-templates/>
+    	</service>
     </xsl:template>
     
 </xsl:stylesheet>

@@ -8,30 +8,29 @@
       <closehour>23:22:00</closehour>
 	</openingHours>
 	<fees>200.0</fees>
-	<telephoneNumber>111333</telephoneNumber>
+	<telephoneNumber>111222333</telephoneNumber>
 	<webPage>www.elprao.com</webPage>
 </generaldata>
 
 <staffinfo>
 	<employee>
-		<name>Pepa</name>
-		<surname>Perez</surname>
-		<telephoneNumber>222444</telephoneNumber>
-		<office>192.U</office>
-		<email>pepapepi@prau.com</email>
-		<department>Flores</department>
-		<role>Flores Chief Executive Manager</role>
-	</employee>
+<name/>
+<surname/>
+<telephoneNumber/>
+<office/>
+<email/>
+<department>Flores</department>
+<role>Flores Chief Executive Manager</role>
+</employee>
 	<employee>
-		<name>Juan</name>
-		<surname>Juanez</surname>
-		<telephoneNumber>222330444</telephoneNumber>
-		<office>2235.F</office>
-		<email>juanjuanez@prau.com</email>
-		<department>Medicina interna</department>
-		<role>Medicina en cuadros</role>
-	</employee>
-	
+<name/>
+<surname/>
+<telephoneNumber/>
+<office/>
+<email/>
+<department>Medicina interna</department>
+<role>Medicina en cuadros</role>
+</employee>
 </staffinfo>
 
 <exhibitions>
@@ -63,7 +62,7 @@
 </activities>
 
 <services>
-	<service>
+	<service name="Librería">
 		<name>Librería</name>
 		<description>Más de dos libros de esculturas.</description>
 		<place>Avenida de la escultura encuadernada.</place>
@@ -72,7 +71,7 @@
       	  <closehour>16:01:00</closehour>
       	</openingHours>
 	</service>
-		<service>
+		<service name="Tienda">
 		<name>Tienda</name>
 		<description>Mini esculturas.</description>
 		<place>Segundo piso de el Prau</place>

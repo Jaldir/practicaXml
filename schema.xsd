@@ -119,10 +119,10 @@
 	
 	<xs:simpleType name="serviceNames">
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="Library"/>
-			<xs:enumeration value="Archive"/>
-			<xs:enumeration value="Shop"/>
-			<xs:enumeration value="Publications service"/>
+			<xs:enumeration value="Librería"/>
+			<xs:enumeration value="Archivo"/>
+			<xs:enumeration value="Tienda"/>
+			<xs:enumeration value="Servicio de publicaciones"/>
 		</xs:restriction>
 	</xs:simpleType>
 
