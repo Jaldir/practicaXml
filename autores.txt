@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 Silvia Moreno Uribarri
 David Angel Leo AcedoczxkshdfkjhDFJKLHaj
 asfoashdfdsf
 sadfsdfgs
+=======
+Silvia Moreno Uribarri - s.morenou@alumnos.urjc.es
+David Angel Leo Acedo - da.leo@alumnos.urjc.es
+>>>>>>> origin/master
